@@ -5,10 +5,18 @@
     <title>Работа с переменными</title>
 </head>
 <body>
-    <h1>Создайте страницу, которая спрашивает имя и выводит его</h1>
-    <script>
+    <!-- <h1>Создайте страницу, которая спрашивает имя и выводит его</h1> -->
+    <!-- <script>
         var name = prompt("Ваше имя?", "");
         alert("День добрый, " + name + "!");
+    </script> -->
+    <script>
+        let userName = prompt('What is your name?', 'Name');
+        function sayHello(){
+            let massage = 'Hello, ' + userName
+        alert(massage)
+    }
+    sayHello()
     </script>
 </body>
 </html>
